@@ -1,8 +1,8 @@
 #! /bin/bash
 printf "Installing RDP Be Patience... " >&2
 {
-sudo useradd -m N3LK
-sudo adduser N3LK sudo
+sudo useradd -m Joon
+sudo adduser Joon sudo
 echo 'N3LK:0789' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
